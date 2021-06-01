@@ -1,0 +1,193 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #868686;
+    font-size: 120%;
+    line-height: 1.5;
+    background-image: url("background.jpeg");
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.cabeçalho {
+    text-align: center;
+    background-color: #5e3d42;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-bottom: 9px solid black;
+    font-size: 45px;
+    text-transform: uppercase;
+    
+    
+    
+}
+.navegação a{
+    color: inherit;
+}
+.navegação-site h1{
+    margin_botton:25px;
+}
+.logo
+{
+    width: 400px ;
+    border: 10px solid black;
+    height: 1000px;
+   
+    top: 130px;
+    
+}
+.navegação ul{  
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;     
+        
+    }
+    .navegação ul li
+    {
+        display:inline;
+    }
+    .navegação ul li a
+    {
+      padding: 2px 10px;
+      display:inline-block;
+      background-color: #EDEDED;
+      color: #333;
+      text-decoration: none;
+      border-bottom: 3px solid #EDEDED;
+     
+    }
+    .navegação ul li a:hover {
+        background-color:#D6D6D6;
+        color: #6D6D6D;
+        border-bottom:3px solid #5e3d42;
+        
+    }
+    aside{
+        position:relative;
+        top: 223px       
+    }   
+.subtitulo-texto{
+    text-align: center;
+    background-color: burlywood;
+}
+
+
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.citacao-paginic {
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    position: relative;
+    
+}
+
+
+.clovis {
+    float: left;
+}
+
+.helena {
+    float: left;
+}
+.equipe{
+    float: right;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+}
+
+main a {
+    color: #851944;
+}
+
+
+/* padding-bottom colocado para o footer não sobrepor o final do texto */
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.citacao-bio,
+
+.rodape-pagina {
+    padding: 20px;
+}
+
+.texto {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+.rede-social{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.instagram {
+    background-image ;
+}
+
+
+
+img {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    right: 0;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #5e3d42;
+    border-top: 100px black;
+    
+}
