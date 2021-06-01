@@ -156,19 +156,10 @@ cite {
 }
 
 nav a {
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
-.rede-social{
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -99999px;
-}
 
-.instagram {
-    background-image ;
-}
 
 
 
