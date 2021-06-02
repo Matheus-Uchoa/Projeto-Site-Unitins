@@ -1,10 +1,24 @@
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #868686;
+    background-color: #6D6D6D;
     font-size: 120%;
     line-height: 1.5;
-    background-image: url("background.jpeg");
+  
 }
+.fundo
+{
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1000;
+    background: url(../img/tijolokrl.jpg) no-repeat;
+    background-size: cover;
+    margin:  auto;
+    max-width: 100px;
+}
+
 
 h1,
 h2 {
@@ -34,7 +48,7 @@ h2 {
     width: 400px ;
     border: 10px solid black;
     height: 1000px;
-   
+    right: 25px;
     top: 130px;
     
 }
@@ -71,7 +85,7 @@ h2 {
     }   
 .subtitulo-texto{
     text-align: center;
-    background-color: burlywood;
+    background-color: rgb(116, 84, 43);
 }
 
 
@@ -137,6 +151,9 @@ cite {
     width: 720px;
     margin: auto;
     padding: 30px 0;
+    background-color: #afa9a9;
+    
+    
 }
 
 
@@ -147,7 +164,7 @@ cite {
 }
 
 .leia-mais {
-    padding: 8px;
+    padding: 10px;
     margin: 16px;
     display: block;
     font-size: 24px;
@@ -169,6 +186,7 @@ img {
     top: 0;
     right: 0;
 }
+
 
 
 
