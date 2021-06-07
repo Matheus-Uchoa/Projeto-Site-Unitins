@@ -1,10 +1,4 @@
-body {
-    font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #6D6D6D;
-    font-size: 120%;
-    line-height: 1.5;
-  
-}
+
 .fundo
 {
     position: fixed;
@@ -41,7 +35,7 @@ h2 {
     color: inherit;
 }
 .navegação-site h1{
-    margin_botton:25px;
+    margin-bottom:25px;
 }
 .logo
 {
@@ -49,7 +43,15 @@ h2 {
     border: 10px solid black;
     height: 1000px;
     right: 25px;
-    top: 130px;
+    top: 130px;   
+}
+.logo-2
+{
+    width: 400px ;
+    border: 10px solid black;
+    height: 1000px;
+    right: 25px;
+    top: 183px;  
     
 }
 .navegação ul{  
@@ -70,22 +72,24 @@ h2 {
       background-color: #EDEDED;
       color: #333;
       text-decoration: none;
-      border-bottom: 3px solid #EDEDED;
-     
+      border-bottom: 3px solid #EDEDED;   
     }
     .navegação ul li a:hover {
         background-color:#D6D6D6;
         color: #6D6D6D;
-        border-bottom:3px solid #5e3d42;
-        
+        border-bottom:3px solid #5e3d42;       
     }
-    aside{
+    #instagram
+    {
         position:relative;
-        top: 223px       
-    }   
+        width: 30px;
+        height: 30px;    
+    }
+  
 .subtitulo-texto{
     text-align: center;
     background-color: rgb(116, 84, 43);
+    font-size: 28px;
 }
 
 
@@ -117,15 +121,13 @@ p {
     float: right;
 }
 
-.rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    clear: both;
-}
 
 main a {
     color: #851944;
 }
+
+
+
 
 
 /* padding-bottom colocado para o footer não sobrepor o final do texto */
@@ -143,16 +145,23 @@ cite {
 
 .citacao-bio,
 
-.rodape-pagina {
+.rodape {
     padding: 20px;
 }
 
 .texto {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
-    background-color: #afa9a9;
-    
+    padding: 0 15px 15px 10px;
+    background-color: #afa9a9;      
+}
+.texto-relato
+{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px 15px 10px;
+    background-color: #afa9a9;  
     
 }
 
@@ -167,13 +176,17 @@ cite {
     padding: 10px;
     margin: 16px;
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     background-color: #E6E7E8;
 }
 
 nav a {
     text-transform: uppercase;
+}
+.tags
+{
+ color:#7e1515;
 }
 
 
@@ -190,13 +203,13 @@ img {
 
 
 
-footer {
+.rodape{
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     box-sizing: border-box;
     background-color: #5e3d42;
-    border-top: 100px black;
+    border-top: 10px black;
     
 }
