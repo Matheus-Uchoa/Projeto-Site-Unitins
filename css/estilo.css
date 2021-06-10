@@ -13,12 +13,10 @@
     max-width: 100px;
 }
 
-
 h1,
 h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-
 .cabeçalho {
     text-align: center;
     background-color: #5e3d42;
@@ -26,10 +24,7 @@ h2 {
     padding: 10px;
     border-bottom: 9px solid black;
     font-size: 45px;
-    text-transform: uppercase;
-    
-    
-    
+    text-transform: uppercase;  
 }
 .navegação a{
     color: inherit;
@@ -85,18 +80,68 @@ h2 {
         width: 30px;
         height: 30px;    
     }
-  
+   
 .subtitulo-texto{
     text-align: center;
     background-color: rgb(116, 84, 43);
     font-size: 28px;
 }
-
-
+.patrocinadores-messi
+{
+    position: relative;
+    top: 20px;
+    right: 4px;
+    border: 7px solid rgb(116, 84, 43);
+}
+.patrocinadores-bolsonaro
+{
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    border: 7px solid rgb(116, 84, 43);
+    
+}
+.patrocinadores-ellon
+{
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+    border: 7px solid rgb(116, 84, 43);
+}
+.citacao-projeto
+{
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    position: relative;
+}
+.messi
+{
+ float: right;
+ top: 20px;
+ 
+}
+.ellon 
+{
+    float: left;
+    top: 13px;
+}
+.bolsonaro
+{
+    float: right;
+    top: 160;
+    
+}
+.cor
+{
+color:#7e1515;
+}
 
 p {
     text-align: justify;
-    margin: 20px 0;
+    margin: 20px 0 ;
 }
 
 .citacao-paginic {
@@ -105,8 +150,7 @@ p {
     width: 250px;
     box-sizing: border-box;
     margin: 20px 40px;
-    position: relative;
-    
+    position: relative;    
 }
 
 
@@ -125,10 +169,6 @@ p {
 main a {
     color: #851944;
 }
-
-
-
-
 
 /* padding-bottom colocado para o footer não sobrepor o final do texto */
 
@@ -153,7 +193,8 @@ cite {
     width: 720px;
     margin: auto;
     padding: 0 15px 15px 10px;
-    background-color: #afa9a9;      
+    background-color: #afa9a9;    
+    
 }
 .texto-relato
 {
@@ -164,7 +205,6 @@ cite {
     background-color: #afa9a9;  
     
 }
-
 
 .artigo {
     padding-bottom: 30px;
@@ -189,19 +229,12 @@ nav a {
  color:#7e1515;
 }
 
-
-
-
-
 img {
     position: absolute;
     width: 300px;
     top: 0;
     right: 0;
 }
-
-
-
 
 .rodape{
     position: fixed;
