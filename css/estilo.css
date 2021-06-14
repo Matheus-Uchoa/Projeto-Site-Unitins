@@ -37,7 +37,7 @@ h2 {
     width: 400px ;
     border: 10px solid black;
     height: 1000px;
-    right: 25px;
+    right: 10px;
     top: 130px;   
 }
 .logo-2
@@ -45,7 +45,7 @@ h2 {
     width: 400px ;
     border: 10px solid black;
     height: 1000px;
-    right: 25px;
+    right: 10px;
     top: 183px;  
     
 }
@@ -79,6 +79,39 @@ h2 {
         position:relative;
         width: 30px;
         height: 30px;    
+    }
+    
+    .cachorro_antes
+    {
+        position:relative;
+        border:7px solid rgb(116, 84, 43);
+        left: 0px;
+    }
+   
+    .cachorro_depois
+    {
+        position:relative;
+        border: 7px solid rgb(116, 84, 43);
+        left: 390px;
+        bottom: 250px;
+    }
+    .calca
+    {
+        position: relative;
+        border: 7px solid rgb(116, 84, 43);
+    }
+    .citacao-relato
+    {
+        background-color: #D9E5E3;
+        border: 10px solid #C2CCCA;
+        width: 250px;
+        box-sizing: border-box;
+        margin: 20px 40px;
+        position: relative;
+    }
+    .clovis2
+    {
+      float: right
     }
    
 .subtitulo-texto{
