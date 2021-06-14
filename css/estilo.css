@@ -113,6 +113,11 @@ h2 {
     {
       float: right
     }
+    .pexe
+    {
+        position: relative;
+        border: 7px solid rgb(116, 84, 43);
+    }
    
 .subtitulo-texto{
     text-align: center;
