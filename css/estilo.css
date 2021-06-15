@@ -40,7 +40,7 @@ h2 {
     box-sizing: border-box;
     border: 9px solid black;
     top:128px;
-    right: 6px;
+    right: 0px;
     
     
     
@@ -54,7 +54,7 @@ h2 {
     height: 1000px;
     box-sizing: border-box;
     border: 9px solid black;
-    right: 6px;
+    right: 0px;
     top: 183px;    
 }
 
