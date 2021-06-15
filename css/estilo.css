@@ -34,21 +34,30 @@ h2 {
 }
 .logo
 {
-    width: 400px ;
-    border: 10px solid black;
+    float: right;
+    width: 26%;
     height: 1000px;
-    right: 10px;
-    top: 130px;   
+    box-sizing: border-box;
+    border: 9px solid black;
+    top:128px;
+    right: 6px;
+    
+    
+    
+
 }
+
 .logo-2
 {
-    width: 400px ;
-    border: 10px solid black;
+    float: right;
+    width: 26%;
     height: 1000px;
-    right: 10px;
-    top: 183px;  
-    
+    box-sizing: border-box;
+    border: 9px solid black;
+    right: 6px;
+    top: 183px;    
 }
+
 .navegação ul{  
     padding:0px;
     margin:0px;
@@ -129,14 +138,14 @@ h2 {
     position: relative;
     top: 20px;
     right: 4px;
-    border: 7px solid rgb(116, 84, 43);
+    border-radius: 100px;
 }
 .patrocinadores-bolsonaro
 {
     position: relative;
     bottom: 100px;
     left: 0px;
-    border: 7px solid rgb(116, 84, 43);
+    border-radius: 100px;
     
 }
 .patrocinadores-ellon
@@ -144,7 +153,7 @@ h2 {
     position: relative;
     bottom: 400px;
     left: 50px;
-    border: 7px solid rgb(116, 84, 43);
+    border-radius: 100px;
 }
 .citacao-projeto
 {
@@ -221,7 +230,7 @@ cite {
     float: right;
 }
 
-.citacao-bio,
+
 
 .rodape {
     padding: 20px;
@@ -229,16 +238,18 @@ cite {
 
 .texto {
     width: 720px;
-    margin: auto;
+    margin-right:20px;
     padding: 0 15px 15px 10px;
     background-color: #afa9a9;    
+    bottom: 200px;
+    
+    
     
 }
 .texto-relato
 {
     width: 720px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     padding: 0 15px 15px 10px;
     background-color: #afa9a9;  
     
